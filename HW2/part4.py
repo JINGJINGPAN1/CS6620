@@ -10,7 +10,7 @@ BUCKET_NAME = "cs6620-hw2-testbucket"
 PLOTTING_API = (
     "https://udvwuuy6pb.execute-api.us-west-2.amazonaws.com/default/plotting-lambda"
 )
-SLEEP_SEC = 3  # seconds between operations so dots aren't too close on the plot
+SLEEP_SEC = 2  # seconds between operations so dots aren't too close on the plot
 
 
 def lambda_handler(event, context):
